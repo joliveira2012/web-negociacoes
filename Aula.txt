@@ -1,0 +1,7 @@
+document.getElementById("data")
+
+document.querySelector("#data")
+//Busca qualquer elemento, não precisa ser ID
+ID= #data
+Class= .data
+Tag= data
