@@ -5,3 +5,24 @@ document.querySelector("#data")
 ID= #data
 Class= .data
 Tag= data
+
+--------------------------------------------------------
+Descobrir o tipo de um valor digitado
+console.log(typeof(variable))
+--------------------------------------------------------
+
+A classe data considera o mês a partir de 00 até 11
+-------------------------------------------------------
+${model.negociacoes.map(n => `
+                    
+    <tr>
+        <td>${DateHelper.dataParaTexto(n.data)}</td>
+        <td>${n.quantidade}</td>
+        <td>${n.valor}</td>
+        <td>${n.volume}</td>
+    </tr>
+    
+`).join('')}   
+
+Esse .join('') junta informações diferentes em texto, se tiver uma string e um array, ele transformará 
+tudo em string '' 
