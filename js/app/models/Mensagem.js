@@ -1,5 +1,6 @@
 class Mensagem {
     
+    //Se não receber nada inicializa com string vazia
     constructor(texto='') {
         
         this._texto = texto;

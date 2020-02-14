@@ -26,3 +26,5 @@ ${model.negociacoes.map(n => `
 
 Esse .join('') junta informações diferentes em texto, se tiver uma string e um array, ele transformará 
 tudo em string '' 
+
+console.log(undefined === false)
